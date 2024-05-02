@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lautaro Mandingorra - Curriculum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lautaro Mandingorra</h1>
+        <p>Dirección: Calle Schilla 4949, Ibarlucea / Rosario</p>
+        <p>Teléfono: +54 9 341 676 3973</p>
+        <p>Correo electrónico: guirutienepoderes@gmail.com</p>
+    </header>
+    
+    <button id="togglePhoto" onclick="togglePhoto()">Ver foto</button>
+    <img id="profilePhoto" src="IMG_20240412_215646.jpg" alt="Foto de perfil" class="hidden">
+
+    
+    <main>
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Apasionado de la informática, me defino por ser una persona con ganas de aprender y un gran líder de equipos.</p>
+        </section>
+
+        <section id="more-info">
+            <h2>Más información</h2>
+            <ul>
+                <li>Disponibilidad de medio tiempo</li>
+                <li>Técnico en reparación de computadoras</li>
+                <li>Cursando el sexto año de tecnicatura en informática en EETP 468 Ingeniero Luis B. Laporte</li>
+                <li>Coordinador de alcanzapelotas en Torneo de Fútbol Estancia Ibarlucea (Marzo 2019 - Actualidad)</li>
+                <li>Experiencia como ayudante en una casa y de carpintero</li>
+                <li>Emprendedor con experiencia en creación de muebles, juguetes artesanales, pintura de paredes y mantenimiento de jardines</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Buena comunicación</li>
+                <li>Gestión de grandes equipos</li>
+                <li>Resolución de problemas</li>
+                <li>Dominio del paquete Office</li>
+                <li>Conocimiento avanzado en informática</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experiencia laboral</h2>
+            <h3>Coordinador de alcanzapelotas</h3>
+            <p>Coordinación de grupos de personas, atención a clientes, manejo de dinero, recuento de stock. Torneo de Fútbol Estancia Ibarlucea (Marzo 2019 - Actualidad)</p>
+            <h3>Ayudante en una casa y de carpintero</h3>
+            <p>Enero 2024 - Actualidad</p>
+            <h3>Emprendimiento propio</h3>
+            <p>Reparación de computadoras y mantenimiento (Enero 2019 - Noviembre 2019). Instalación del Office y otros programas. Instalación de sistemas operativos.</p>
+        </section>
+
+        <section id="education">
+            <h2>Datos académicos</h2>
+            <p>Técnico en reparación de computadoras</p>
+            <p>Cursando sexto año de tecnicatura en informática en EETP 468 Ingeniero Luis B. Laporte</p>
+        </section>
+    </main>
+    <script>
+        function togglePhoto() {
+            var photo = document.getElementById("profilePhoto");
+            photo.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
